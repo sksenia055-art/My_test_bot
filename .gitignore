@@ -1,0 +1,29 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+
+# Логи и данные пользователей
+logs/
+*.log
+users.json
+
+# Настройки PyCharm
+.idea/
+
+# Файлы с токенами (чтобы не светить токен в GitHub)
+config.py
+*.token
+.env
+
+# Системные файлы
+.DS_Store
+Thumbs.db
